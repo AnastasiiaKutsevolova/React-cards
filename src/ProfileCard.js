@@ -1,4 +1,4 @@
-function ProfileCard({ title, handle, image, description }) {
+function ProfileCard({ title, handle, image, description, link }) {
   return (
     <div className="card">
       <div className="card-image">
@@ -13,6 +13,11 @@ function ProfileCard({ title, handle, image, description }) {
           <p className="subtitle is-6">{handle}</p>
         </div>
         <div className="content">{description}</div>
+        <div className="button">
+          <a href={link} target="_blank">
+            Go to official website ...
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -22,6 +22,7 @@ function App() {
                 handle="@alexa99"
                 image={AlexaImage}
                 description="Alexa was created by Amazon and helps you buy things."
+                link={"http://www.amazon.com"}
               />
             </div>
             <div className="column is-3">
@@ -30,6 +31,7 @@ function App() {
                 handle="@cortana32"
                 image={CortanaImage}
                 description="Cortana was made by Microsoft. Who knows what it does?"
+                link="http://www.google.com"
               />
             </div>
             <div className="column is-3">
@@ -38,6 +40,7 @@ function App() {
                 handle="@siri01"
                 image={SiriImage}
                 description="Siri was made by Apple and is being well known for Iphone users"
+                link={"http://www.apple.com"}
               />
             </div>
           </div>
